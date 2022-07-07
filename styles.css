@@ -1,0 +1,196 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+
+
+.center {
+
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header {
+    background-color: white;
+    padding: 20px 0;
+    border-bottom: 1px solid rgb(200, 200, 200);
+}
+
+.logo {
+    color: #FF0000;
+
+}
+
+.logo h2 {
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.menu {
+    width: 80%;
+    text-align: right;
+}
+
+.menu a {
+    color: #FF0000;
+    font-size: 16px;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: 0.4s;
+    font-weight: bolder;
+}
+
+.menu a:hover {
+    color: #8B0000;
+}
+
+.menu .btnmenu {
+    background-color: #FF0000;
+    display: inline-block;
+    padding: 8px 16px;
+    color: white;
+    border-radius: 6px;
+
+}
+
+.menu .btnmenu:hover {
+    background-color: #8B0000;
+    color: white;
+}
+
+section.main {
+    background-image: url(img/fundo.jpg);
+    padding: 100px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.main_cta {
+    width: 100%;
+    text-align: center;
+    margin: 60px 0;
+}
+
+.main_cta h2 {
+    color: #FF0000;
+    font-size: 40px;
+}
+
+.main_cta p {
+    color: gray;
+    font-size: 20px;
+    margin: 10px 0;
+    font-weight: bolder;
+
+}
+
+.main_cta button {
+    background-color: #FF0000;
+    display: inline-block;
+    padding: 8px 30px;
+    color: white;
+    border: 0;
+    font-size: 22px;
+    border-radius: 6px;
+    transition: 00.4s;
+    cursor: pointer;
+
+
+}
+
+.main_cta button:hover {
+    background-color: #8B0000;
+    color: white;
+}
+
+.diferenciais {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diferencial-single {
+    float: left;
+    background-color: white;
+    width: 23%;
+    margin-right: 2%;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.diferencial-single i {
+    color: #FF0000;
+    font-size: 23px;
+}
+
+.diferencial-single h2 {
+    color: #FF0000;
+    margin: 10px 0;
+    font-size: 17px;
+}
+
+.diferencial-single p {
+    color: black;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+section.sobre {
+    padding: 80px 0;
+
+}
+
+.chamada-sobre {
+    text-align: center;
+    width: 100%;
+}
+
+.chamada-sobre h2 {
+    color: #FF0000;
+    text-transform: uppercase;
+}
+
+.chamada-sobre p {
+    font-size: 14px;
+    color: gray;
+    margin: 10px 0;
+    font-weight: bolder;
+}
+
+.conteudo-sobre {
+    color: gray;
+    display: flex;
+    font-weight: bolder;
+}
+
+.conteudo-sobre p {
+    margin: 0 20px;
+}
+
+.conteudo-sobre span {
+    display: inline-block;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.conteudo-sobre i {
+    color: #FF0000;
+}
+
+@media screen and (max-width: 768px) {
+    .diferencial-single {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    ;
+}
