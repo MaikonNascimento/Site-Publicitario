@@ -79,6 +79,7 @@ section.main {
     width: 100%;
     text-align: center;
     margin: 60px 0;
+    font-weight: bolder;
 }
 
 .main_cta h2 {
@@ -167,6 +168,8 @@ section.sobre {
 }
 
 .conteudo-sobre {
+    text-align: center;
+    width: 100%;
     color: gray;
     display: flex;
     font-weight: bolder;
